@@ -1,0 +1,149 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+@font-face { 
+    font-family: "Lato";
+    src: url(fonts/Lato-Regular.ttf)
+}
+
+header {
+	height: 789px;
+	background-color: black;
+	padding-top: 60px;
+}
+
+
+.wrap {
+	width: 1140px;
+	margin: auto;
+
+}
+
+
+.logo {
+  font-size: 24px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: left;
+  z-index: 301;
+
+}
+
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.nav {
+  font-size: 14px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: left;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+nav ul li {
+	margin-right: 30px;
+}
+
+
+nav ul .home_text::after {
+	content: "";
+	display: block;
+	background-color: rgb(252, 172, 69);
+	width: 31px;
+  	height: 3px;
+  	margin: auto;
+  	margin-top: 17px;
+}
+
+nav ul li:hover::after {
+	content: "";
+	display: block;
+	background-color: rgb(252, 172, 69);
+	width: 31px;
+  	height: 3px;
+  	margin: auto;
+  	margin-top: 17px;
+}
+
+
+
+.title {
+  font-size: 44px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: rgb(153, 153, 153);
+  text-transform: uppercase;
+  line-height: 0.545;
+  text-align: center;
+  margin-top: 204px;
+}
+
+
+.subtitle {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.749);
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 24px;
+}
+
+
+.title span {
+	color: #fcac45;
+	font-weight: bold;
+}
+
+
+
+.subtitle span {
+	font-weight: bold;
+}
+
+
+
+.strelka {
+  /*background-color: rgba(255, 255, 255, 0.749);*/
+  color: rgba(255, 255, 255, 0.749);
+  text-align: center;
+  margin-top: 7px;
+  font-size: 25px;
+}
+
+
+.circle {
+	width: 50px;
+	height: 50px;
+	border: solid white 2px;
+	border-radius: 40px;
+	margin:auto;
+	margin-top: 287px;
+}
+
+.circle:hover {
+	background-color: white;
+}
+
+.strelka:hover {
+	color: black;
+}
