@@ -151,6 +151,15 @@ nav ul li:hover::after {
 
 
 
+/* TWO BLOCK */
+/* TWO BLOCK */
+/* TWO BLOCK */
+/* TWO BLOCK */
+/* TWO BLOCK */
+
+
+
+
 
 .underheader {
   height: 613px;
@@ -161,16 +170,20 @@ nav ul li:hover::after {
 .wrap1 {
   width: 1140px;
   margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 104px;
+
 }
 
-/*
+
 .imac {
   background-image: url(images/imac.png);
   height: 410px;
   width: 510px;
   background-repeat: no-repeat;
-  margin: auto;
-}*/
+  text-align: left;
+}
 
 
 .titles_2 {
@@ -210,6 +223,7 @@ nav ul li:hover::after {
   height: 5px;
   width: 100px;
   background-color: orange;
+  margin-top: 22px;
 }
 
 
@@ -217,7 +231,7 @@ nav ul li:hover::after {
 .under_title_some_text {
   height: 63px;
   width: 403px;
-  margin-top: 34px;
+  margin-top: 60px;
 }
 
 
@@ -235,6 +249,7 @@ nav ul li:hover::after {
 .paragraph {
   height: 82px;
   width: 402px;
+  margin-top: 30px;
 }
 
 
@@ -255,33 +270,33 @@ nav ul li:hover::after {
 
 }
 
-/*
-.button_2 {
-  height: 47px;
-  width: 193px;
-  border: solid 1px black;
-  padding-top: 15px;
-}*/
 
 
-.button_2 li {
-  text-align: center
+
+.border_button {
+  height: 46px;
+  width: 194px;
+  border: solid 1px rgb(97, 97, 97);
+  border-radius: 5px;
+  padding-top: 7px;
+  margin-top: 55px;
+}
+
+
+
+.li_button {
   font-size: 12px;
   font-family: "OpenSans";
   color: rgb(97, 97, 97);
   text-transform: uppercase;
+  line-height: 2.775;
+  text-align: left;
   list-style-image: url(images/ipapka.png);
-
 }
 
 
 
-.button_2 {
-  padding: 0;
-  padding-top: 15px;
 
-
-
+.right_content {
+  text-align: right;
 }
-
-
