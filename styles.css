@@ -13,6 +13,13 @@ a {
     src: url(fonts/Lato-Regular.ttf)
 }
 
+@font-face { 
+    font-family: "OpenSans";
+    src: url(fonts/OpenSans-Bold.ttf);
+    src: url(fonts/OpenSans-Light.ttf)
+}
+
+
 header {
 	height: 789px;
 	background-color: black;
@@ -300,3 +307,124 @@ nav ul li:hover::after {
 .right_content {
   text-align: right;
 }
+
+
+
+
+
+
+/*THREE BLOCK */
+/*THREE BLOCK */
+/*THREE BLOCK */
+/*THREE BLOCK */
+
+
+
+
+.three_block {
+  height: 728px;
+  background-color: black;
+}
+
+
+.wrap2 {
+  width: 1140px;
+  margin: auto;
+  padding-top: 102px;
+
+}
+
+
+.meet_our_team {
+  text-align: center;
+  font-size: 44px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 0.545;
+}
+
+
+
+.orange_line {
+  display: block;
+  height: 5px;
+  width: 99px;
+  background-color: orange;
+  margin: auto;
+  margin-top: 31px;
+}
+
+
+
+.orange_line::after {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 66px;
+  background-color: #b37b33;
+  margin: auto;
+  margin-top: 10px;
+}
+
+
+
+.blocks_persons {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 108px;
+}
+
+
+.person1 {
+  height: 305px;
+  width: 246px;
+
+}
+
+
+.ava_person1 {
+  height: 129px;
+  width: 129px;
+  border-radius: 50%;
+  background-color: #d7d7d7;
+  margin: auto;
+}
+
+
+.person1 p {
+  text-align: center;
+}
+
+
+.name {
+  font-size: 20px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 26px;
+
+}
+
+
+.specialty {
+  font-size: 18px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  margin-top: 14px;
+}
+
+
+
+.description {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+  line-height: 1.714;
+  text-align: center;
+  margin-top: 41px;
+}
+
