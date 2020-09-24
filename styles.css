@@ -70,9 +70,9 @@ nav ul .home_text::after {
 	display: block;
 	background-color: rgb(252, 172, 69);
 	width: 31px;
-  	height: 3px;
-  	margin: auto;
-  	margin-top: 17px;
+  height: 3px;
+  margin: auto;
+  margin-top: 17px;
 }
 
 nav ul li:hover::after {
@@ -80,9 +80,9 @@ nav ul li:hover::after {
 	display: block;
 	background-color: rgb(252, 172, 69);
 	width: 31px;
-  	height: 3px;
-  	margin: auto;
-  	margin-top: 17px;
+  height: 3px;
+  margin: auto;
+  margin-top: 17px;
 }
 
 
@@ -137,7 +137,7 @@ nav ul li:hover::after {
 	border: solid white 2px;
 	border-radius: 40px;
 	margin:auto;
-	margin-top: 287px;
+	margin-top: 287px;\
 }
 
 .circle:hover {
@@ -147,3 +147,141 @@ nav ul li:hover::after {
 .strelka:hover {
 	color: black;
 }
+
+
+
+
+
+.underheader {
+  height: 613px;
+
+}
+
+
+.wrap1 {
+  width: 1140px;
+  margin: auto;
+}
+
+/*
+.imac {
+  background-image: url(images/imac.png);
+  height: 410px;
+  width: 510px;
+  background-repeat: no-repeat;
+  margin: auto;
+}*/
+
+
+.titles_2 {
+  height: 60px;
+  width: 420px;
+
+}
+
+
+
+.about_us {
+  font-size: 20px;
+  font-family: "OpenSans";
+  color: rgb(99, 99, 99);
+  text-transform: uppercase;
+  line-height: 1.865;
+  text-align: left;
+
+
+}
+
+
+.some_words {
+  font-size: 34px;
+  font-family: "OpenSans";
+  color: rgb(34, 34, 34);
+  text-transform: uppercase;
+  line-height: 1.097;
+  text-align: left;
+
+}
+
+
+.some_words::after {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 100px;
+  background-color: orange;
+}
+
+
+
+.under_title_some_text {
+  height: 63px;
+  width: 403px;
+  margin-top: 34px;
+}
+
+
+.under_title_some_text span{
+  font-size: 18px;
+  font-family: "OpenSans";
+  color: rgb(108, 108, 108);
+  line-height: 1.389;
+  text-align: left;
+
+}
+
+
+
+.paragraph {
+  height: 82px;
+  width: 402px;
+}
+
+
+
+.text_para {
+  font-size: 18px;
+  font-family: "OpenSans";
+  color: rgb(90, 90, 90);
+  line-height: 1.389;
+  text-align: left;
+  list-style-image: url(images/circle.png);
+
+}
+
+
+.paragraph ul {
+  padding: 20px;
+
+}
+
+/*
+.button_2 {
+  height: 47px;
+  width: 193px;
+  border: solid 1px black;
+  padding-top: 15px;
+}*/
+
+
+.button_2 li {
+  text-align: center
+  font-size: 12px;
+  font-family: "OpenSans";
+  color: rgb(97, 97, 97);
+  text-transform: uppercase;
+  list-style-image: url(images/ipapka.png);
+
+}
+
+
+
+.button_2 {
+  padding: 0;
+  padding-top: 15px;
+
+
+
+}
+
+
