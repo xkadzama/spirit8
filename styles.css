@@ -428,3 +428,30 @@ nav ul li:hover::after {
   margin-top: 41px;
 }
 
+
+
+
+.four_block {
+  height: 735px;
+  background-color: white;
+}
+
+
+
+
+.wrap3 {
+  width: 1140px;
+  margin: auto;
+  padding-top: 105px;
+
+}
+
+
+.take_a_look {
+  text-align: center;
+  font-size: 44px;
+  font-family: "OpenSans";
+  color: black;
+  text-transform: uppercase;
+  line-height: 0.545;
+}
